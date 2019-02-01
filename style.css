@@ -1,0 +1,114 @@
+/*
+Theme Name:     Penciletto
+Theme URI:	https://blogonyourown.com/themes/penciletto
+Author:		BlogOnYourOwn.com
+Author URI:	https://blogonyourown.com/
+Description:    Pencil Child Template
+Template:       pencil
+Version:        1.0
+*/
+
+/* Your theme customization starts here
+------------------------------------------------------- */
+
+.posts-navigation {
+    width:100%;
+    padding-left: 1.5625rem;
+    padding-right: 1.5625rem;
+    font-weight: 700;
+}
+
+.site-info p {
+    text-align: right;
+}
+
+.top-widget .fat-wpp-list .entry-title {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.top-widget .fat-wpp-list li {
+    background-color: transparent;
+}
+
+.main-navigation {
+    letter-spacing: .2em;
+}
+
+.main-navigation ul ul {
+    /*top: 4.425em;*/
+}
+
+.menu-toggle,
+.search-toggle,
+.pencil-search-panel-close {
+    /*padding: 1.6625em;*/
+}
+
+@media (min-width: 48em) {
+    
+    .main-navigation {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 1420px;
+    }
+    
+    .main-navigation li {
+	/*padding: 1.5em 0.75em;*/
+    }
+    
+    .site-info .footer-text {
+	text-align: left;
+    }
+
+    .top-widget .fat-wpp-list {
+	display: flex;
+	flex-wrap: wrap;
+    }
+
+    .top-widget .fat-wpp-list li {
+	width: 50%;
+	padding: 0 16px;
+    }
+
+
+    .top-widget .fat-wpp-list li:nth-of-type(2n) {
+	padding-right: 0;	    
+    }
+    .top-widget .fat-wpp-list li:nth-of-type(2n+1) {
+	padding-left: 0;
+    }    
+}
+
+@media (min-width: 62em) {
+
+    .top-widget .fat-wpp-list li {
+	width: 25%;
+	padding: 8px;
+    }
+
+    .top-widget .fat-wpp-list li:nth-of-type(2n) {
+	padding-right: 10px;
+	padding-left: 4px;
+    }
+
+    .top-widget .fat-wpp-list li:nth-of-type(2n+1) {
+	padding-left: 10px;
+	padding-right: 4px;
+    }
+
+    .top-widget .fat-wpp-list li:nth-of-type(4n) {
+	padding-right: 0;
+	padding-left: 16px;
+    }
+
+    .top-widget .fat-wpp-list li:nth-of-type(4n+1) {
+	padding-left: 0;
+	padding-right: 16px;
+    }
+}
