@@ -19,7 +19,7 @@ function penciletto_customize_register( $wp_customize ) {
 
 	$wp_customize->remove_setting( 'smooth_scroll' );
 	$wp_customize->remove_control( 'smooth_scroll' );
-	
+
 	$wp_customize->remove_setting( 'header_logo' );
 	$wp_customize->remove_control( 'header_logo' );
 }
