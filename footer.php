@@ -12,7 +12,7 @@
 ?>
 
 	</div><!-- #content -->
-
+	<?php get_sidebar('footer'); ?>
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<p class="col-md-6 footer-text"><?php echo wp_kses_post( get_theme_mod( 'footer_text', '&copy; ' . date_i18n( __( 'Y', 'penciletto' ) ) . ' ' . get_bloginfo( 'name' ) ) ); ?></p>

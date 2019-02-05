@@ -27,6 +27,7 @@
 	<header id="masthead" class="site-header" role="banner">
 				
 			<nav id="site-navigation" class="main-navigation" role="navigation">
+			    <?php the_custom_logo(); ?>
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'penciletto' ); ?></button>
 						<div class="nav-func">
 						<?php
@@ -88,5 +89,6 @@
 			<?php get_template_part( 'template-parts/content', 'home-slider' ); ?>
 		
 		<?php endif; ?>
+	<?php get_sidebar('top'); ?>
 	<div id="content" class="site-content container">
-	    <?php get_sidebar('top');
+	    

@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package pencil
+ * @package penciletto
  */
 
 if ( ! is_active_sidebar( 'top-1' ) ) {
@@ -12,6 +12,6 @@ if ( ! is_active_sidebar( 'top-1' ) ) {
 }
 ?>
 
-<div id="top-widget" class="top-widget widget-area col-md-12" role="complementary">
+<div id="top-widget" class="top-widget widget-area" role="complementary">
 	<?php dynamic_sidebar( 'top-1' ); ?>
 </div><!-- #secondary -->

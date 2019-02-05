@@ -11,6 +11,42 @@ Version:        1.0
 /* Your theme customization starts here
 ------------------------------------------------------- */
 
+body, button, input, select, textarea {
+    font-size: 1.15rem;
+    line-height: 2;
+}
+
+.site-header {
+    background-color: #fff;
+}
+
+.main-navigation {
+    letter-spacing: .2em;
+    border-bottom: 1px solid #ccc;
+    min-height: 70px;
+    padding: 10px 30px;
+}
+
+.main-navigation ul ul {
+    top: 4.425em;
+}
+
+.main-navigation.toggled {
+    padding-left: 0;
+}
+
+.pencil-featured-slider-header span {
+    background-color: #fff;
+    font-weight: 700;
+    color: #000;
+}
+
+.menu-toggle,
+.search-toggle,
+.pencil-search-panel-close {
+    /*padding: 1.6625em;*/
+}
+
 .posts-navigation {
     width:100%;
     padding-left: 1.5625rem;
@@ -18,11 +54,53 @@ Version:        1.0
     font-weight: 700;
 }
 
+.posts-navigation .nav-previous a, .posts-navigation .nav-next a {
+    border-bottom: 1px solid #000;
+    display: block;
+    font-size: .75em;
+    font-weight: 700;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.custom-logo-link {
+    float: left;
+}
+
+.custom-logo-link img {
+    height:30px;
+    width:auto;
+    margin: 10px 30px 10px 0;
+}
+
 .site-info p {
     text-align: right;
 }
 
-.top-widget .fat-wpp-list .entry-title {
+.tags-links {
+    font-size: 1rem;
+}
+
+.pencil-featured-slider {
+    width: 1680px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.widget-title, .category-list, .pencil-page-intro, .comments-title, .comment-reply-title, .pencil-next-article, .pencil-previous-article {
+    letter-spacing: .2em;
+}
+
+.top-widget {
+    width: 1420px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding: 30px;
+}
+
+.fat-wpp-list .entry-title {
     text-align: left;
     font-size: 18px;
     font-weight: 700;
@@ -32,23 +110,36 @@ Version:        1.0
     background-color: transparent;
 }
 
-.main-navigation {
-    letter-spacing: .2em;
+.top-widget .widget.popular-posts {
+    margin-bottom: 0;
 }
 
-.main-navigation ul ul {
-    /*top: 4.425em;*/
+.footer-widget {
+    background-color: #000;
 }
 
-.menu-toggle,
-.search-toggle,
-.pencil-search-panel-close {
-    /*padding: 1.6625em;*/
+.footer-widget .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1420px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+}
+
+.footer-widget .widget {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+}
+
+.footer-widget .widget a {
+    color: #fff;
 }
 
 @media (min-width: 48em) {
-    
-    .main-navigation {
+
+    /*.main-navigation {
 	float: none;
 	margin-left: auto;
 	margin-right: auto;
@@ -56,12 +147,13 @@ Version:        1.0
 	padding-left: 30px;
 	padding-right: 30px;
 	width: 1420px;
-    }
-    
+    }*/
+
     .main-navigation li {
 	/*padding: 1.5em 0.75em;*/
+	padding: 1.125em 0.75em;
     }
-    
+
     .site-info .footer-text {
 	text-align: left;
     }
@@ -76,17 +168,38 @@ Version:        1.0
 	padding: 0 16px;
     }
 
-
     .top-widget .fat-wpp-list li:nth-of-type(2n) {
 	padding-right: 0;	    
     }
+
     .top-widget .fat-wpp-list li:nth-of-type(2n+1) {
 	padding-left: 0;
-    }    
+    }
+
+    .footer-widget .widget {
+	width: 50%;
+    }
 }
 
 @media (min-width: 62em) {
+    .main-navigation {
+	width: 1420px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+    }
+    
+    .home .site-content {
+	max-width: 80.72rem;
+    }
 
+    .home .site-main .entry-title {
+	max-width: 60%;
+    }
+    .home .entry-header img {
+	/*max-width: 100%;*/
+    }
     .top-widget .fat-wpp-list li {
 	width: 25%;
 	padding: 8px;
@@ -110,5 +223,9 @@ Version:        1.0
     .top-widget .fat-wpp-list li:nth-of-type(4n+1) {
 	padding-left: 0;
 	padding-right: 16px;
+    }
+
+    .footer-widget .widget {
+	width: 25%;
     }
 }
