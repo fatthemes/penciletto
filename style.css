@@ -22,13 +22,21 @@ body, button, input, select, textarea {
 
 .main-navigation {
     letter-spacing: .2em;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #edebeb;
     min-height: 70px;
     padding: 10px 30px;
 }
 
 .main-navigation ul ul {
     top: 4.425em;
+}
+
+.main-navigation .sub-menu {
+    box-shadow: rgb(204, 204, 204) 0px 1px 4px;
+}
+
+.main-navigation.toggled .sub-menu {
+    box-shadow: none;
 }
 
 .main-navigation.toggled {
@@ -190,7 +198,7 @@ body, button, input, select, textarea {
 	float: none;
     }
     
-    .home .site-content {
+    .site-content {
 	max-width: 80.72rem;
     }
 
