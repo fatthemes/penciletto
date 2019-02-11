@@ -28,7 +28,7 @@ body, button, input, select, textarea {
 }
 
 .main-navigation ul ul {
-    top: 4.425em;
+    top: 4.25em;
 }
 
 .main-navigation .sub-menu {
@@ -105,7 +105,7 @@ body, button, input, select, textarea {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
-    padding: 30px;
+    padding: 30px 30px 0;
 }
 
 .fat-wpp-list .entry-title {
@@ -116,6 +116,7 @@ body, button, input, select, textarea {
 
 .top-widget .fat-wpp-list li {
     background-color: transparent;
+    padding: 0;
 }
 
 .top-widget .widget.popular-posts {
@@ -146,17 +147,6 @@ body, button, input, select, textarea {
 }
 
 @media (min-width: 48em) {
-
-    /*.main-navigation {
-	float: none;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 100%;
-	padding-left: 30px;
-	padding-right: 30px;
-	width: 1420px;
-    }*/
-
     .main-navigation li {
 	/*padding: 1.5em 0.75em;*/
 	padding: 1.125em 0.75em;
@@ -186,6 +176,15 @@ body, button, input, select, textarea {
 
     .footer-widget .widget {
 	width: 50%;
+	padding: 0 20px;
+    }
+    
+    .footer-widget .widget:nth-of-type(2n) {
+	padding-right: 0;
+    }
+    
+    .footer-widget .widget:nth-of-type(2n+1) {
+	padding-left: 0;
     }
 }
 
@@ -200,6 +199,7 @@ body, button, input, select, textarea {
     
     .site-content {
 	max-width: 80.72rem;
+	padding-top: 5.125rem;
     }
 
     .home .site-main .entry-title {
@@ -235,5 +235,25 @@ body, button, input, select, textarea {
 
     .footer-widget .widget {
 	width: 25%;
+    }
+    
+    .footer-widget .widget:nth-of-type(2n) {
+	padding-left: 6px;
+	padding-right: 13px;
+    }
+    
+    .footer-widget .widget:nth-of-type(2n+1) {
+	padding-left: 13px;
+	padding-right: 6px;
+    }
+    
+    .footer-widget .widget:nth-of-type(4n) {
+	padding-right: 0;
+	padding-left: 20px;
+    }
+    
+    .footer-widget .widget:nth-of-type(4n+1) {
+	padding-left: 0;
+	padding-right: 20px;
     }
 }
