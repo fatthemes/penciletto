@@ -1,0 +1,90 @@
+# Copyright (C) 2019 BlogOnYourOwn.com
+# This file is distributed under the same license as the Penciletto package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Penciletto 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2019-02-13 14:55:55+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: footer.php:18
+msgid "Y"
+msgstr ""
+
+#: functions.php:53
+msgid "Top"
+msgstr ""
+
+#: functions.php:65
+msgid "Footer"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:31
+msgid "Menu"
+msgstr ""
+
+#: single.php:28
+msgid "Attachment page"
+msgstr ""
+
+#: single.php:35 template-parts/content-home-masonry.php:23
+msgid " &#x2f; "
+msgstr ""
+
+#: single.php:47
+msgid "Previous article"
+msgstr ""
+
+#: single.php:48
+msgid "Next article"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Penciletto"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://blogonyourown.com/themes/penciletto"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Penciletto is a modern WordPress theme, which with its appearance and "
+"attention to detail can successfully compete with more than one premium "
+"theme. Well-designed menu, various options for displaying posts in the "
+"slider (statically or automatically with smooth speed regulation), a large "
+"number of widgets that will give your site an individual character. The "
+"one-column layout will make your photos look great. A matched and legible "
+"font, with a perfect line width, will allow you to read each article "
+"freely. Penciletto was created for beginners bloggers, therefore it is easy "
+"to use. With our motif, you can easily set your website to look dazzling."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "BlogOnYourOwn.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://blogonyourown.com/"
+msgstr ""

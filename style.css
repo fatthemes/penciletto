@@ -8,243 +8,261 @@ Template:       pencil
 Version:        1.0
 */
 
+
 /* Your theme customization starts here
 ------------------------------------------------------- */
 
-body, button, input, select, textarea {
-    font-size: 1.15rem;
-    line-height: 2;
+body,
+button,
+input,
+select,
+textarea {
+	font-size: 1.15rem;
+	line-height: 2;
 }
 
 .site-header {
-    background-color: #fff;
+	background-color: #fff;
 }
 
 .main-navigation {
-    letter-spacing: .2em;
-    border-bottom: 1px solid #edebeb;
-    min-height: 70px;
-    padding: 10px 30px;
+	min-height: 70px;
+	padding: 10px 30px;
+	border-bottom: 1px solid #edebeb;
+	letter-spacing: 0.2em;
 }
 
 .main-navigation ul ul {
-    top: 4.25em;
+	top: 4.25em;
 }
 
 .main-navigation .sub-menu {
-    box-shadow: rgb(204, 204, 204) 0px 1px 4px;
+	box-shadow: rgb(204, 204, 204) 0 1px 4px;
 }
 
 .main-navigation.toggled .sub-menu {
-    box-shadow: none;
+	box-shadow: none;
 }
 
 .main-navigation.toggled {
-    padding-left: 0;
+	padding-left: 0;
 }
 
 .pencil-featured-slider-header span {
-    background-color: #fff;
-    font-weight: 700;
-    color: #000;
+	color: #000;
+	background-color: #fff;
+	font-weight: 700;
 }
 
 .posts-navigation {
-    width:100%;
-    padding-left: 1.5625rem;
-    padding-right: 1.5625rem;
-    font-weight: 700;
+	width: 100%;
+	padding-right: 1.5625rem;
+	padding-left: 1.5625rem;
+	font-weight: 700;
 }
 
-.posts-navigation .nav-previous a, .posts-navigation .nav-next a {
-    border-bottom: 1px solid #000;
-    display: block;
-    font-size: .75em;
-    font-weight: 700;
-    letter-spacing: .2em;
-    text-transform: uppercase;
+.posts-navigation .nav-previous a,
+.posts-navigation .nav-next a {
+	display: block;
+	border-bottom: 1px solid #000;
+	font-size: 0.75em;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
 }
 
 .custom-logo-link {
-    float: left;
+	float: left;
 }
 
 .custom-logo-link img {
-    height:30px;
-    width:auto;
-    margin: 10px 30px 10px 0;
+	width: auto;
+	height: 30px;
+	margin: 10px 30px 10px 0;
 }
 
 .site-info p {
-    text-align: right;
+	text-align: right;
 }
 
 .tags-links {
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 .pencil-featured-slider {
-    width: 1680px;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+	width: 1680px;
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-.widget-title, .category-list, .pencil-page-intro, .comments-title, .comment-reply-title, .pencil-next-article, .pencil-previous-article {
-    letter-spacing: .2em;
+.widget-title,
+.category-list,
+.pencil-page-intro,
+.comments-title,
+.comment-reply-title,
+.pencil-next-article,
+.pencil-previous-article {
+	letter-spacing: 0.2em;
 }
 
 .top-widget {
-    width: 1420px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    padding: 30px 30px 0;
+	width: 1420px;
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px 30px 0;
 }
 
 .fat-wpp-list .entry-title {
-    text-align: left;
-    font-size: 18px;
-    font-weight: 700;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: left;
 }
 
 .top-widget .fat-wpp-list li {
-    background-color: transparent;
-    padding: 0;
+	padding: 0;
+	background-color: transparent;
 }
 
 .top-widget .widget.popular-posts {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .footer-widget {
-    background-color: #000;
+	background-color: #000;
 }
 
 .footer-widget .container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1420px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 60px;
+	display: -ms-flexbox;
+	display: flex;
+	max-width: 1420px;
+	padding-top: 60px;
+	padding-right: 30px;
+	padding-left: 30px;
+
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .footer-widget .widget {
-    width: 100%;
-    padding: 10px;
-    color: #fff;
+	width: 100%;
+	padding: 10px;
+	color: #fff;
 }
 
 .footer-widget .widget a {
-    color: #fff;
+	color: #fff;
 }
 
 @media (min-width: 48em) {
-    .main-navigation li {
-	padding: 1.125em 0.75em;
-    }
+	.main-navigation li {
+		padding: 1.125em 0.75em;
+	}
 
-    .site-info .footer-text {
-	text-align: left;
-    }
+	.site-info .footer-text {
+		text-align: left;
+	}
 
-    .top-widget .fat-wpp-list {
-	display: flex;
-	flex-wrap: wrap;
-    }
+	.top-widget .fat-wpp-list {
+		display: -ms-flexbox;
+		display: flex;
 
-    .top-widget .fat-wpp-list li {
-	width: 50%;
-	padding: 0 16px;
-    }
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
 
-    .top-widget .fat-wpp-list li:nth-of-type(2n) {
-	padding-right: 0;	    
-    }
+	.top-widget .fat-wpp-list li {
+		width: 50%;
+		padding: 0 16px;
+	}
 
-    .top-widget .fat-wpp-list li:nth-of-type(2n+1) {
-	padding-left: 0;
-    }
+	.top-widget .fat-wpp-list li:nth-of-type(2n) {
+		padding-right: 0;
+	}
 
-    .footer-widget .widget {
-	width: 50%;
-	padding: 0 20px;
-    }
-    
-    .footer-widget .widget:nth-of-type(2n) {
-	padding-right: 0;
-    }
-    
-    .footer-widget .widget:nth-of-type(2n+1) {
-	padding-left: 0;
-    }
+	.top-widget .fat-wpp-list li:nth-of-type(2n+1) {
+		padding-left: 0;
+	}
+
+	.footer-widget .widget {
+		width: 50%;
+		padding: 0 20px;
+	}
+
+	.footer-widget .widget:nth-of-type(2n) {
+		padding-right: 0;
+	}
+
+	.footer-widget .widget:nth-of-type(2n+1) {
+		padding-left: 0;
+	}
 }
 
 @media (min-width: 62em) {
-    .main-navigation {
-	width: 1420px;
-	max-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	float: none;
-    }
-    
-    .site-content {
-	max-width: 80.72rem;
-	padding-top: 5.125rem;
-    }
+	.main-navigation {
+		float: none;
+		width: 1420px;
+		max-width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
 
-    .home .site-main .entry-title {
-	max-width: 60%;
-    }
-    
-    .top-widget .fat-wpp-list li {
-	width: 25%;
-	padding: 8px;
-    }
+	.site-content {
+		max-width: 80.72rem;
+		padding-top: 5.125rem;
+	}
 
-    .top-widget .fat-wpp-list li:nth-of-type(2n) {
-	padding-right: 10px;
-	padding-left: 4px;
-    }
+	.home .site-main .entry-title {
+		max-width: 60%;
+	}
 
-    .top-widget .fat-wpp-list li:nth-of-type(2n+1) {
-	padding-left: 10px;
-	padding-right: 4px;
-    }
+	.top-widget .fat-wpp-list li {
+		width: 25%;
+		padding: 8px;
+	}
 
-    .top-widget .fat-wpp-list li:nth-of-type(4n) {
-	padding-right: 0;
-	padding-left: 16px;
-    }
+	.top-widget .fat-wpp-list li:nth-of-type(2n) {
+		padding-right: 10px;
+		padding-left: 4px;
+	}
 
-    .top-widget .fat-wpp-list li:nth-of-type(4n+1) {
-	padding-left: 0;
-	padding-right: 16px;
-    }
+	.top-widget .fat-wpp-list li:nth-of-type(2n+1) {
+		padding-right: 4px;
+		padding-left: 10px;
+	}
 
-    .footer-widget .widget {
-	width: 25%;
-    }
-    
-    .footer-widget .widget:nth-of-type(2n) {
-	padding-left: 6px;
-	padding-right: 13px;
-    }
-    
-    .footer-widget .widget:nth-of-type(2n+1) {
-	padding-left: 13px;
-	padding-right: 6px;
-    }
-    
-    .footer-widget .widget:nth-of-type(4n) {
-	padding-right: 0;
-	padding-left: 20px;
-    }
-    
-    .footer-widget .widget:nth-of-type(4n+1) {
-	padding-left: 0;
-	padding-right: 20px;
-    }
+	.top-widget .fat-wpp-list li:nth-of-type(4n) {
+		padding-right: 0;
+		padding-left: 16px;
+	}
+
+	.top-widget .fat-wpp-list li:nth-of-type(4n+1) {
+		padding-right: 16px;
+		padding-left: 0;
+	}
+
+	.footer-widget .widget {
+		width: 25%;
+	}
+
+	.footer-widget .widget:nth-of-type(2n) {
+		padding-right: 13px;
+		padding-left: 6px;
+	}
+
+	.footer-widget .widget:nth-of-type(2n+1) {
+		padding-right: 6px;
+		padding-left: 13px;
+	}
+
+	.footer-widget .widget:nth-of-type(4n) {
+		padding-right: 0;
+		padding-left: 20px;
+	}
+
+	.footer-widget .widget:nth-of-type(4n+1) {
+		padding-right: 20px;
+		padding-left: 0;
+	}
 }
