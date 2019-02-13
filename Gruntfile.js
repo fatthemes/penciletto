@@ -21,7 +21,7 @@ module.exports = function (grunt) {
         addtextdomain: {
             options: {
                 //i18nToolsPath: '/home/patryk/public_html/wpdev/trunk/tools/i18n', // Path to the i18n tools directory.
-                //textdomain: 'pencil',    // Project text domain.
+                //textdomain: 'penciletto',    // Project text domain.
                 updateDomains: true  // List of text domains to replace.
             },
             target: {
