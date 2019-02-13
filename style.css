@@ -3,7 +3,7 @@ Theme Name:     Penciletto
 Theme URI:	https://blogonyourown.com/themes/penciletto
 Author:		BlogOnYourOwn.com
 Author URI:	https://blogonyourown.com/
-Description:    Pencil Child Template
+Description:    Penciletto is a modern WordPress theme, which with its appearance and attention to detail can successfully compete with more than one premium theme. Well-designed menu, various options for displaying posts in the slider (statically or automatically with smooth speed regulation), a large number of widgets that will give your site an individual character. The one-column layout will make your photos look great. A matched and legible font, with a perfect line width, will allow you to read each article freely. Penciletto was created for beginners bloggers, therefore it is easy to use. With our motif, you can easily set your website to look dazzling.
 Template:       pencil
 Version:        1.0
 */
@@ -47,12 +47,6 @@ body, button, input, select, textarea {
     background-color: #fff;
     font-weight: 700;
     color: #000;
-}
-
-.menu-toggle,
-.search-toggle,
-.pencil-search-panel-close {
-    /*padding: 1.6625em;*/
 }
 
 .posts-navigation {
@@ -148,7 +142,6 @@ body, button, input, select, textarea {
 
 @media (min-width: 48em) {
     .main-navigation li {
-	/*padding: 1.5em 0.75em;*/
 	padding: 1.125em 0.75em;
     }
 
@@ -205,9 +198,7 @@ body, button, input, select, textarea {
     .home .site-main .entry-title {
 	max-width: 60%;
     }
-    .home .entry-header img {
-	/*max-width: 100%;*/
-    }
+    
     .top-widget .fat-wpp-list li {
 	width: 25%;
 	padding: 8px;

@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package pencil
+ * @package penciletto
  */
 
 get_header(); ?>
@@ -25,14 +25,14 @@ get_header(); ?>
 					<?php if ( is_attachment() ) : ?>
 					<div class="col-md-12">
 						<div class="category-list">
-							<?php echo esc_html__( 'Attachment page', 'pencil' ); ?>
+							<?php echo esc_html__( 'Attachment page', 'penciletto' ); ?>
 						</div>
 					</div>
 					
 					<?php elseif ( is_single() ) : ?>
 					<div class="col-md-12">
 						<div class="category-list">
-							<?php the_category( __( ' &#x2f; ', 'pencil' ) ); ?>
+							<?php the_category( __( ' &#x2f; ', 'penciletto' ) ); ?>
 						</div>
 					</div>
 					<?php endif; ?>
@@ -44,8 +44,8 @@ get_header(); ?>
 
 							the_post_navigation(
 								array(
-									'prev_text'          => '<div class="pencil-previous-article">' . esc_html__( 'Previous article', 'pencil' ) . '</div><div class="pencil-previous-article-title">%title</div>',
-									'next_text'          => '<div class="pencil-next-article">' . esc_html__( 'Next article', 'pencil' ) . '</div><div class="pencil-next-article-title">%title</div>',
+									'prev_text'          => '<div class="pencil-previous-article">' . esc_html__( 'Previous article', 'penciletto' ) . '</div><div class="pencil-previous-article-title">%title</div>',
+									'next_text'          => '<div class="pencil-next-article">' . esc_html__( 'Next article', 'penciletto' ) . '</div><div class="pencil-next-article-title">%title</div>',
 										// 'screen_reader_text' => __( 'Post navigation' ),
 								)
 							);
