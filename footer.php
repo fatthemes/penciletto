@@ -16,7 +16,7 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<p class="col-md-6 footer-text"><?php echo wp_kses_post( get_theme_mod( 'footer_text', '&copy; ' . date_i18n( __( 'Y', 'penciletto' ) ) . ' ' . get_bloginfo( 'name' ) ) ); ?></p>
-			<p class="col-md-6 theme-author">Theme by <a href="http://blogonyourown.com">BlogOnYourOwn.com</a></p>
+			<p class="col-md-6 theme-author">Theme by <a href="https://blogonyourown.com">BlogOnYourOwn.com</a></p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
