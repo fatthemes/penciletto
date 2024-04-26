@@ -88,6 +88,8 @@ add_filter( 'pencil_content_width', 'penciletto_content_width', 10 );
  * Penciletto functions and definitions.
  */
 function penciletto_setup() {
+	add_theme_support( 'automatic-feed-links' );
+	add_theme_support( 'title-tag' );
 	/**
 	 * Add support for core custom logo.
 	 *
