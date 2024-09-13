@@ -1,5 +1,8 @@
 # Change Log - Penciletto
 
+## [1.1.2] - 2024-09-13
+- Removed `theme.json` to resolve conflicts with block editor styles.
+
 ## [1.1.1] - 2024-09-12
  - Added Block Editor support
  - Tested up to 6.6.2 (WordPress version)
